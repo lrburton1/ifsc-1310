@@ -1,0 +1,35 @@
+/*-----CSS Demo Stylesheet-----*/
+
+/*-----Box Sizing-----*/
+
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/*-----Global Styles-----*/
+
+body{
+    margin:0; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header.primary{
+    background-color: #D9073F;
+    text-align: center;
+    color:000000;
+    /*-----long form-----*/
+    text-shadow: 2px 2px #000000;
+    padding-top:40px;
+    padding-right:40px
+    padding-bottom:20px
+    padding-left:40px;
+    /*-----T, R, B, L-----*/
+    padding:40px 40px 20px 40px;
+    /*-----Top/Bottom Right/Left-----*/
+    padding: 20px 40px;
+}
