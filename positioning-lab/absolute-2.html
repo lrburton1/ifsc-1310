@@ -32,18 +32,28 @@ body {
 }
 #red {
 	background-color: #900;
+	width:175px;
+	height:100px;
 }
 #green {
 	background-color: #090;
+	width:175px;
+	height:100px;
 }
 #blue {
 	background-color: #00F;
+	width:175px;
+	height:100px;
 }
 #purple {
 	background-color: #63C;
+	width:175px;
+	height:100px;
 }
 #footer {
 	background-color: #666;
+	width:175px;
+	height:100px;
 }
 h1 {
 	color: #000;
@@ -56,11 +66,15 @@ h1 {
 <body>
 <h1>Absolute 2</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
-  <div id="footer">Footer</div>
+  <div id="red" style="position:absolute; top:60%; left:30%;">Red</div>
+  
+  <div id="green" style="position:absolute; top:60%; right:30%;">Green</div>
+  
+  <div id="blue" style="position:absolute; bottom:60%; left:30%;">Blue</div>
+  
+  <div id="purple" style="position:absolute; bottom:60%; right:30%;">Purple</div>
+  
+  <div id="footer" style="position:absolute; top:45%; left:45%;">Footer</div>
 </div>
 </body>
 </html>
